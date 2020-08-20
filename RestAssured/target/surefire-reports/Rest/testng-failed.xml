@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" skipfailedinvocationCounts="false" verbose="0" name="Failed suite [Rest]" junit="false" annotations="JDK">
+  <test name="Rest(failed)" junit="false" annotations="JDK">
+    <classes>
+      <class name="RestAssured.RestTest">
+        <methods>
+          <include name="testGet"/>
+          <include name="testDelete"/>
+          <include name="testPost"/>
+          <include name="testPatch"/>
+          <include name="testPut"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

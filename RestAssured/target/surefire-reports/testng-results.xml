@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5087" started-at="2018-08-22T11:00:45Z" finished-at="2018-08-22T11:00:50Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5087" started-at="2018-08-22T11:00:45Z" finished-at="2018-08-22T11:00:50Z">
+      <class name="RestAssured.RestTest">
+        <test-method status="PASS" signature="testGet()[pri:1, instance:RestAssured.RestTest@4ec6a292]" name="testGet" duration-ms="1993" started-at="2018-08-22T11:00:45Z" finished-at="2018-08-22T11:00:47Z">
+        </test-method>
+        <test-method status="PASS" signature="testPost()[pri:2, instance:RestAssured.RestTest@4ec6a292]" name="testPost" duration-ms="767" started-at="2018-08-22T11:00:47Z" finished-at="2018-08-22T11:00:48Z">
+        </test-method>
+        <test-method status="PASS" signature="testDelete()[pri:3, instance:RestAssured.RestTest@4ec6a292]" name="testDelete" duration-ms="762" started-at="2018-08-22T11:00:48Z" finished-at="2018-08-22T11:00:49Z">
+        </test-method>
+        <test-method status="PASS" signature="testPut()[pri:4, instance:RestAssured.RestTest@4ec6a292]" name="testPut" duration-ms="765" started-at="2018-08-22T11:00:49Z" finished-at="2018-08-22T11:00:49Z">
+        </test-method>
+        <test-method status="PASS" signature="testPatch()[pri:5, instance:RestAssured.RestTest@4ec6a292]" name="testPatch" duration-ms="769" started-at="2018-08-22T11:00:49Z" finished-at="2018-08-22T11:00:50Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

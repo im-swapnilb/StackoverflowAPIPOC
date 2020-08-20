@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Rest" failures="5" tests="5" time="0.014" errors="0">
+  <properties/>
+  <testcase name="testGet" time="0.001" classname="RestAssured.RestTest">
+    <failure type="java.lang.Error" message="Unresolved compilation problem: 
+	The attribute priority is undefined for the annotation type Test
+">
+      <![CDATA[java.lang.Error: Unresolved compilation problem: 
+	The attribute priority is undefined for the annotation type Test
+
+	at RestAssured.RestTest.testGet(RestTest.java:14)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:217)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:92)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+... Removed 20 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testDelete" time="0.0" classname="RestAssured.RestTest">
+    <failure type="java.lang.Error" message="Unresolved compilation problem: 
+	The attribute priority is undefined for the annotation type Test
+">
+      <![CDATA[java.lang.Error: Unresolved compilation problem: 
+	The attribute priority is undefined for the annotation type Test
+
+	at RestAssured.RestTest.testDelete(RestTest.java:51)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:217)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:92)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+... Removed 20 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testPost" time="0.001" classname="RestAssured.RestTest">
+    <failure type="java.lang.Error" message="Unresolved compilation problem: 
+	The attribute priority is undefined for the annotation type Test
+">
+      <![CDATA[java.lang.Error: Unresolved compilation problem: 
+	The attribute priority is undefined for the annotation type Test
+
+	at RestAssured.RestTest.testPost(RestTest.java:25)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:217)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:92)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+... Removed 20 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testPatch" time="0.0" classname="RestAssured.RestTest">
+    <failure type="java.lang.Error" message="Unresolved compilation problem: 
+	The attribute priority is undefined for the annotation type Test
+">
+      <![CDATA[java.lang.Error: Unresolved compilation problem: 
+	The attribute priority is undefined for the annotation type Test
+
+	at RestAssured.RestTest.testPatch(RestTest.java:90)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:217)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:92)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+... Removed 20 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testPut" time="0.0" classname="RestAssured.RestTest">
+    <failure type="java.lang.Error" message="Unresolved compilation problem: 
+	The attribute priority is undefined for the annotation type Test
+">
+      <![CDATA[java.lang.Error: Unresolved compilation problem: 
+	The attribute priority is undefined for the annotation type Test
+
+	at RestAssured.RestTest.testPut(RestTest.java:65)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:217)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:92)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+... Removed 20 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>
