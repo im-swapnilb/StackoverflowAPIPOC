@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RestAssuredStackExchangeAPI" duration-ms="12238" started-at="2020-08-19T14:29:16Z" finished-at="2020-08-19T14:29:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12238" started-at="2020-08-19T14:29:16Z" finished-at="2020-08-19T14:29:28Z">
+      <class name="com.StackExchangeAPI.Test.restTestCases">
+        <test-method status="PASS" signature="setBaseUri()[pri:0, instance:com.StackExchangeAPI.Test.restTestCases@d7b1517]" name="setBaseUri" is-config="true" duration-ms="496" started-at="2020-08-19T19:59:16Z" finished-at="2020-08-19T19:59:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseUri -->
+        <test-method status="PASS" signature="testGetTags()[pri:0, instance:com.StackExchangeAPI.Test.restTestCases@d7b1517]" name="testGetTags" duration-ms="4088" started-at="2020-08-19T19:59:16Z" finished-at="2020-08-19T19:59:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTags -->
+        <test-method status="PASS" signature="testGetRecipients()[pri:0, instance:com.StackExchangeAPI.Test.restTestCases@d7b1517]" name="testGetRecipients" duration-ms="1679" started-at="2020-08-19T19:59:20Z" finished-at="2020-08-19T19:59:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRecipients -->
+        <test-method status="PASS" signature="testGetRecipients400Exception()[pri:0, instance:com.StackExchangeAPI.Test.restTestCases@d7b1517]" name="testGetRecipients400Exception" duration-ms="1505" started-at="2020-08-19T19:59:22Z" finished-at="2020-08-19T19:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRecipients400Exception -->
+        <test-method status="PASS" signature="testGetTags400Exception()[pri:0, instance:com.StackExchangeAPI.Test.restTestCases@d7b1517]" name="testGetTags400Exception" duration-ms="1476" started-at="2020-08-19T19:59:23Z" finished-at="2020-08-19T19:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetTags400Exception -->
+        <test-method status="PASS" signature="testGetid()[pri:0, instance:com.StackExchangeAPI.Test.restTestCases@d7b1517]" name="testGetid" duration-ms="1530" started-at="2020-08-19T19:59:25Z" finished-at="2020-08-19T19:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetid -->
+        <test-method status="PASS" signature="testGetid400Exception()[pri:0, instance:com.StackExchangeAPI.Test.restTestCases@d7b1517]" name="testGetid400Exception" duration-ms="1448" started-at="2020-08-19T19:59:26Z" finished-at="2020-08-19T19:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetid400Exception -->
+      </class> <!-- com.StackExchangeAPI.Test.restTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- RestAssuredStackExchangeAPI -->
+</testng-results>

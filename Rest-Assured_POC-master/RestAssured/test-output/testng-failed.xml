@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="true">
+    <classes>
+      <class name="RestAssured.RestAssured.restTestCases">
+        <methods>
+          <include name="testGetTags400Exception"/>
+          <include name="testGetRecipients"/>
+          <include name="testGetid400Exception"/>
+          <include name="testGetid"/>
+          <include name="testGetTags"/>
+          <include name="setBaseUri"/>
+          <include name="testGetRecipients400Exception"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
